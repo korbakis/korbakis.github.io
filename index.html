@@ -1,235 +1,409 @@
-<!DOCTYPE HTML>
-<!--
-	Prologue 1.2 by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Prologue by HTML5 UP</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600" rel="stylesheet" type="text/css" />
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-panels.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel-noscript.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-		</noscript>
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
-	</head>
-	<body>
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 
-		<!-- Header -->
-			<div id="header" class="skel-panels-fixed">
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Giorgos Korbakis</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-				<div class="top">
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
-							<h1 id="title">George Korbakis</h1>
-							<span class="byline">Computer Engineer</span>
-						</div>
+	<!-- CSS
+    ================================================== -->
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/media-queries.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
 
-					<!-- Nav -->
-						<nav id="nav">
-							<!--
-							
-								Prologue's nav expects links in one of two formats:
-								
-								1. Hash link (scrolls to a different section within the page)
-								
-								   <li><a href="#foobar" id="foobar-link" class="skel-panels-ignoreHref"><span class="fa fa-whatever-icon-you-want">Foobar</span></a></li>
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
 
-								2. Standard link (sends the user to another page/site)
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="giorgoskorbakis.png" >
 
-								   <li><a href="http://foobar.tld"><span class="fa fa-whatever-icon-you-want">Foobar</span></a></li>
-							
-							-->
-							<ul>
-								<li><a href="#top" id="top-link" class="skel-panels-ignoreHref"><span class="fa fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-panels-ignoreHref"><span class="fa fa-th">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-panels-ignoreHref"><span class="fa fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link" class="skel-panels-ignoreHref"><span class="fa fa-envelope">Contact</span></a></li>
-							</ul>
-						</nav>
-						
-				</div>
-				
-				<div class="bottom">
+</head>
 
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="#" class="fa fa-twitter solo"><span>Twitter</span></a></li>
-							<li><a href="#" class="fa fa-facebook solo"><span>Facebook</span></a></li>
-							<li><a href="#" class="fa fa-github solo"><span>Github</span></a></li>
-							<li><a href="#" class="fa fa-dribbble solo"><span>Dribbble</span></a></li>
-							<li><a href="#" class="fa fa-envelope solo"><span>Email</span></a></li>
-						</ul>
-				
-				</div>
-			
-			</div>
+<body>
 
-		<!-- Main -->
-			<div id="main">
-			
-				<!-- Intro -->
-					<section id="top" class="one">
-						<div class="container">
+   <!-- Header
+   ================================================== -->
+   <header id="home">
 
-							<a href="http://ineedchemicalx.deviantart.com/art/Moonscape-381829905" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+      <nav id="nav-wrap">
 
-							<header>
-								<h2 class="alt">This is my <strong>Personal Page</strong>.<br />
-								You are in my corner of the internet.</h2>
-							</header>
-							
-							<p>This is just one more way to present myself to you. Hopefully, you are either one of my possible <strong>employers</strong> or one of my <strong>admirers</strong>. <br />
-							</p>
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-							<footer>
-								<a href="#portfolio" class="button scrolly">I want to read more</a>
-							</footer>
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+            <li><a class="smoothscroll" href="#testimonials">inspiration</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
 
-						</div>
-					</section>
-					
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">
-					
-							<header>
-								<h2>Portfolio</h2>
-							</header>
-							
-							<p>Here, you can see some of my old <strong>projects-to be updated-</strong> (special thanks to my... overpowered fellows). <strong>University</strong> is responsible for most of this stuff, but you can also see the <strong>website</strong> I created
-							some months ago in order to share some of my thoughs and the news I found important or interesting. My <strong>curriculum vitae</strong> is also available.</p>
-						
-							<div class="row">
-								<div class="4u">
-									<article class="item">
-										<a href="https://www.dropbox.com/s/qy5grnbos6m16f6/CV_GIORGOS_KORMPAKIS.pdf" class="image full"><img src="images/pic03.jpg" alt="" /></a>
-										<header>
-											<h3>Curriculum Vitae</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="http://ineedchemicalx.deviantart.com/art/Elysium-355393900" class="image full"><img src="images/pic06.jpg" alt="" /></a>
-										<header>
-											<h3>To be updated.</h3>
-										</header>
-									</article>
-								</div>
-								<div class="4u">
-									<article class="item">
-										<a href="http://giorgoskorbis.wix.com/gimmeshelter#!home/c10ly" class="image full"><img src="images/pic04.jpg" alt="" /></a>
-										<header>
-											<h3>My Website</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="http://ineedchemicalx.deviantart.com/art/Ad-infinitum-354203162" class="image full"><img src="images/pic05.jpg" alt="" /></a>
-										<header>
-											<h3>To be updated.</h3>
-										</header>
-									</article>
-								</div>
-								<div class="4u">
-									<article class="item">
-										<a href="https://www.dropbox.com/sh/509a81jeg5lne0v/AAAvLZ5Jrtx9LEBAKP7z0qn0a" class="image full"><img src="images/pic02.jpg" alt="" /></a>
-										<header>
-											<h3>C++</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="http://ineedchemicalx.deviantart.com/art/Emperor-of-the-Stars-370265193" class="image full"><img src="images/pic07.jpg" alt="" /></a>
-										<header>
-											<h3>To be updated.</h3>
-										</header>
-									</article>
-								</div>
-							</div>
+      </nav> <!-- end #nav-wrap -->
 
-						</div>
-					</section>
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Giorgos Korbakis.</h1>
+            <h3>I'm a Greece based <span>22 years old man</span>, studying in the <br />
+			<span>Computer Engineering and Informatics Department</span>.<br /> 
+			Let's <a class="smoothscroll" href="#about">start scrolling</a>
+            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.facebook.com/giorgoskorbis"><i class="fa fa-facebook"></i></a></li>
+               <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="#callto://+13052963456"><i class="fa fa-skype"></i></a></li> -->
+               <li><a href="http://giorgoskorbis.wix.com/gimmeshelter"><i class="fa fa-dribbble"></i></a></li> 			   
+            </ul>
+         </div>
+      </div>
 
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
 
-							<header>
-								<h2>About Me</h2>
-							</header>
+   </header> <!-- Header End -->
 
-							<a href="http://ineedchemicalx.deviantart.com/art/Pasadena-357650036" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-							
-							<p>There is not too much I could say about me. I am a young man from Greece, full of hopes for a better future in both social and personal level.
-							In this site you can learn who I am, what my skills are and what I am interested in. I dream of a good job, mostly relative to the subject of my studies, Computer Engineering.
-							So, here are some... typical info:<br /><br />
-							<strong>Full Name</strong>: Giorgos Korbakis<br />
-							<strong>Date of Birth</strong>: 4th August 1992<br />
-							<strong>Country</strong>: Greece<br />
-							<strong>Studying in</strong>: Computer Engineering and Informatics Department, Patras, Greece
-							</p>
 
-						</div>
-					</section>
-			
-				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
 
-							<header>
-								<h2>Contact</h2>
-							</header>
+      <div class="row">
 
-							<p>Well, the most possible scenario is that you are in this page because I contacted with you<br /> or sent you this page so you could learn about me.<br />
-							<strong>So, as far as I have achieved my purpose and you have a good impression about me, I guess you would like to contact back.</strong><br />
-							That is a nice and easy usable form to do it.</p>
-							
-							<form method="post" action="mailto:giorgoskorbis@hotmail.com">
-								<div class="row half">
-									<div class="6u"><input type="text" class="text" name="name" placeholder="Name" /></div>
-									<div class="6u"><input type="text" class="text" name="name" placeholder="Subject" /></div>
-									<div><input type="text" class="text" name="email" placeholder="Your Email" /></div>
-								</div>
-								<div class="row half">
-									<div class="12u">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-								</div>
-								<div class="row">
-									<div class="12u">
-										<a href="#" class="button submit">Send Message</a>
-									</div>
-								</div>
-							</form>
+         <div class="three columns">
 
-						</div>
-					</section>
-			
-			</div>
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
 
-		<!-- Footer -->
-			<div id="footer">
-				
-				<!-- Copyright -->
-					<div class="copyright">
-						<p>&copy; 2013 Jane Doe. All rights reserved.</p>
-						<ul class="menu">
-							<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</div>
-				
-			</div>
+         </div>
 
-	</body>
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>I am a young man from Greece, full of hopes for a better future in both social and personal level.
+			I dream of a good job, mostly relative to the subject of my studies, Computer Engineering.<br />
+			I am creative, hard-working, ambitious and I definately like challenges.<br />
+			<strong>So, I guess I could be the right person for youw job.</strong>
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Giorgos Korbakis</span><br>
+						   <span>Χαιρώνειας 14<br>
+						         Πάτρα, Ελλάδα, 26441
+                     </span><br>
+						   <span>(123)456-7890</span><br>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Computer Engineering and Informatics Department</h3>
+                  <p class="info">Master in computer engineering <span>&bull;</span> <em class="date">2010 until now</em></p>
+
+                  <p>I guess this was one of the most important decisions in my life. To study in a polytechnical school, in Patras, Greece.<br />
+				  Known as the best department about informatics in the country, I'm sure it was a good choice, with a lot of potential which fits with my skills, ambitions and character.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>In a department as mine, my computer skills are -and should be- icreased. Though, my social, organizing and leadership skills are also improved.<br />
+			So, in this section you can check them out easily.
+            </p>
+
+				<div class="bars">
+
+				   <ul class="skills">
+						<li><span class="bar-expand microsoft_office"></span><em>Microsoft Office</em></li>
+						<li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>
+						<li><span class="bar-expand wordpress"></span><em>Wordpress</em></li>
+						<li><span class="bar-expand css"></span><em>CSS</em></li>
+						<li><span class="bar-expand html5"></span><em>HTML5</em></li>
+						<li><span class="bar-expand social_media"></span><em>Social Media</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+ 
+
+   </section> <!-- Call-To-Action Section End-->
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>Client Testimonials</span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                           <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+                           to do what you believe is great work. And the only way to do great work is to love what you do.
+                           If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+                           </p>
+                           <cite>Steve Jobs</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                     <li>
+                        <blockquote>
+                           <p>Any intelligent fool can make things bigger, more complex, and more violent. 
+						   It takes a touch of genius -and a lot of courage- to move in the opposite direction.
+                           </p>
+                           <cite>Albert Einstein</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead">Well, the most possible scenario is that you are in this page because I contacted with you<br /> or sent you this page so you could learn about me.<br />
+					<strong>So, as far as I have achieved my purpose and you have a good impression about me, I guess you would like to contact back.</strong><br />
+					That is a nice and easy usable form to do it.
+                  </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+
+                  <div>
+						   <label for="contactName">Name <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+						   <label for="contactEmail">Email <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+						   <label for="contactSubject">Subject</label>
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                     <button class="submit">Submit</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+
+					</fieldset>
+				   </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> Error </div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+               <div class="widget widget_contact">
+
+					   <h4>Address and Phone</h4>
+					   <p class="address">
+						   Giorgos Korbakis<br>
+						   Χαιρώνειας 14 <br>
+						   Πάτρα, Ελλάδα, 26441<br>
+						   <span>(+30) 6989126885</span>
+					   </p>
+
+				   </div>
+
+               <div class="widget widget_tweets">
+
+                  <h4 class="widget-title">This is my Personal Website</h4>
+				  <p>Check it out!</p>
+				  <a href="http://giorgoskorbis.wix.com/gimmeshelter"><img src="images/Welcome.jpg" alt="HTML tutorial" width="200" height="200"></a>
+
+
+
+
+		         </div>
+
+            </aside>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://www.facebook.com/giorgoskorbis"><i class="fa fa-facebook"></i></a></li>
+               <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fa fa-skype"></i></a></li> -->
+               <li><a href="http://giorgoskorbis.wix.com/gimmeshelter"><i class="fa fa-dribbble"></i></a></li>			   
+            </ul>
+
+            <ul class="copyright">
+               <li>Giorgos Korbakis</li>
+               <li>Design thanks to <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+</body>
+
 </html>
